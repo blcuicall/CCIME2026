@@ -7,8 +7,7 @@
 - [4. 评价标准](#4-评价标准)
 - [5. 评测赛程](#5-评测赛程)
 - [6. 奖项设置](#6-奖项设置)
-- [7 论文评审](#7-论文评审)
-- [微信交流群](#微信交流群)
+- [7. 论文评审](#7-论文评审)
 
 ## 1. 比赛介绍
 
@@ -21,8 +20,9 @@
 - 组织者
   - 杨尔弘（北京语言大学）
   - 杨麟儿（北京语言大学）
-  - 安维华（北京语言大学）
   - 岳岩（北京语言大学）
+  - 安维华（北京语言大学）
+
 - 联系人
   - 付祥（北京语言大学硕士生）
   - 张艺璇（北京语言大学博士生）
@@ -93,7 +93,6 @@
 
 
 <p align='center'>表2：中文隐喻能力测评示例</p>
-
 <div style="display: flex; justify-content: center;">
   <table border="1" cellspacing="0" cellpadding="8" style="border-collapse: collapse; text-align: center;" align='center'>
     <thead>
@@ -135,9 +134,6 @@
 为避免过于冗长导致引入无关信息干扰模型的判断，每段对话只截取能推导出会话含义的最小必要语段，即从触发线索句起， 到含义被确认或取消的首个后续句止， 这样能够确保语段保留完整的可推理链条。本次评测数据集共计 425 段多轮对话。图1为多轮对话示例。表3为数据集的规模介绍。
 
 
-
-<p align='center'>图1 多轮对话示例</p>
-
 ```json
 {
         "context_id": "1",
@@ -155,8 +151,9 @@
         }
     }
 ```
+<p align='center'>图1：多轮对话示例</p>
 
-<p align='center'>表3 会话含义数据集统计</p>
+<p align='center'>表3：会话含义数据集统计</p>
 
 <div style="display: flex; justify-content: center;">
   <table border="1" cellspacing="0" cellpadding="8" style="border-collapse: collapse; text-align: center;"  align='center'>
@@ -192,7 +189,6 @@
 
 数据集规模共计2690条语料，涵盖文学作品、政治文本、日常对话三大来源。语料类型涵盖结构隐喻、方位隐喻、本体隐喻三类核心隐喻类型，其中隐喻句2090条（文学600条、政治600条、对话890条），非隐喻句600条（含明喻、夸张、字面表达各200条），所有语料均经过多轮人工标注与一致性检验，明确标注句子是否含隐喻、本体、喻体及隐喻含义。该赛道的评测数据示例如图2所示，数据集统计信息如表4所示。
 
-<p align='center'>图2 隐喻评测数据示例</p>
 
 ```json
 {
@@ -202,10 +198,10 @@
     "vehicle": "扎根的植物（如树木、种子）"
   }
 ```
+<p align='center'>图2：隐喻评测数据示例</p>
 
 
-
-<p align='center'>表4 英语能力评测数据集分布概况</p>
+<p align='center'>表4：英语能力评测数据集分布概况</p>
 
 <table align='center'>
   <thead>
