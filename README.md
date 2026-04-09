@@ -40,9 +40,12 @@
 
 本次评测设置两个赛道，分别针对会话理解能力与中文隐喻理解能力进行评估。
 
+
+
 **赛道一**：大语言模型理解会话含义能力测评。该任务重点评估模型从语言、文化、社交三个维度上在多轮对话或上下文语境中对用户意图、语义关系及隐含信息的理解能力，包括识别任务、选择任务、生成解释等。
 
 <p align='center'>表1：会话含义理解能力测评示例</p>
+
 <table align='center'>
     <tr>
         <td style="text-align: center;" colspan='2'> <b>原句</b> </td>
@@ -80,18 +83,47 @@
       <td>干扰三</td>
       <td>胡一菲认为张伟的饮料太寒酸了。</td>
     </tr>
+</table>
+
 注：参赛者需要识别每条会话中“哪里有”会话含义，以及“是什么”含义，并生成解释“为什么”。
+
+
+
 **赛道二**：大语言模型中文隐喻能力评测研究。该任务旨在评估模型对中文隐喻表达的识别与理解能力，包括隐喻识别、生成释义及生成例句。
+
 
 <p align='center'>表2：中文隐喻能力测评示例</p>
 
-|原句|是否包含隐喻|本体|喻体|
-| :---: | :---: | :---: | :---: |
-| 首尔大学汇集了韩国大批青年才俊，相信你们都将成为栋梁之才。|是| 首尔大学/青年学生/成才的学生 | 河或者海/有流动性的东西/栋梁 |
-| 教室后排靠窗的位置放着一盆绿萝，藤蔓沿着墙壁垂下来，叶子有些已经发黄。 | 否 | 无 | 无 | 
-
-
-
+<div style="display: flex; justify-content: center;">
+  <table border="1" cellspacing="0" cellpadding="8" style="border-collapse: collapse; text-align: center;" align='center'>
+    <thead>
+      <tr>
+        <th>原句</th>
+        <th>是否包含隐喻</th>
+        <th>本体</th>
+        <th>喻体</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="text-align: center;">
+          首尔大学汇集了韩国大批青年才俊，相信你们都将成为栋梁之才。
+        </td>
+        <td>是</td>
+        <td>首尔大学/青年学生/成才的学生</td>
+        <td>河或者海/有流动性的东西/栋梁</td>
+      </tr>
+      <tr>
+        <td style="text-align: center;">
+          教室后排靠窗的位置放着一盆绿萝，藤蔓沿着墙壁垂下来，叶子有些已经发黄。
+        </td>
+        <td>否</td>
+        <td>无</td>
+        <td>无</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 ## 3. 评测数据
 
 下面分别描述每个赛道提供的评测数据集具体情况：
@@ -126,10 +158,33 @@
 
 <p align='center'>表3 会话含义数据集统计</p>
 
-|              | 话轮数  | 字符数 | 句数  |
-| ------------ | ------- | ------ | ----- |
-| 平均每段对话 | 约 4 轮 | 105.39 | 4.78  |
-| 总计         | 1,605   | 44,792 | 2,030 |
+<div style="display: flex; justify-content: center;">
+  <table border="1" cellspacing="0" cellpadding="8" style="border-collapse: collapse; text-align: center;"  align='center'>
+    <thead>
+      <tr>
+        <th></th>
+        <th>话轮数</th>
+        <th>字符数</th>
+        <th>句数</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>平均每段对话</td>
+        <td>约 4 轮</td>
+        <td>105.39</td>
+        <td>4.78</td>
+      </tr>
+      <tr>
+        <td>总计</td>
+        <td>1,605</td>
+        <td>44,792</td>
+        <td>2,030</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
 
 ### 赛道二：大语言模型中文隐喻能力评测研究
 
@@ -152,7 +207,7 @@
 
 <p align='center'>表4 英语能力评测数据集分布概况</p>
 
-<table>
+<table align='center'>
   <thead>
     <tr>
       <th>语料类型</th>
@@ -194,6 +249,7 @@
     </tr>
   </tbody>
 </table>
+
 
 ## 4. 评价标准
 
