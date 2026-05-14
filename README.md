@@ -174,8 +174,7 @@
 ```
 <p align='center'>图2：隐喻评测数据示例</p>
 
-
-<p align='center'>表4：英语能力评测数据集分布概况</p>
+<p align='center'>表4：隐喻评测数据集分布概况</p>
 
 <table align='center'>
   <thead>
