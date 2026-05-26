@@ -271,5 +271,6 @@
 **填写报名表**：[点击报名](https://v.wjx.cn/vm/we2JNeL.aspx#)进行报名。每支队伍需指派一名联系负责人，并加入微信交流群。
 
 <center>
-    <img src="./微信交流群.png" width="30%">
+    <img src="./微信交流群.jpg" width="30%">
 </center>
+
